@@ -1,0 +1,236 @@
+-------------------------------------------------------------------------------
+Test set: Test.TestRestApi
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 65.002 sec <<< FAILURE!
+testVideoFilterCnnSite(Test.TestRestApi)  Time elapsed: 32.821 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: There are no equal objecrs
+
+Found following differences:
+
+ [0].body
+    =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist."
+    =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. "
+
+ [1].body
+    =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics."
+    =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. "
+
+ [3].body
+    =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job."
+    =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. "
+
+ [6].body
+    =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+    =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+ [7].body
+    =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+    =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+ [8].body
+    =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis."
+    =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis."
+
+
+
+--- Difference details ---
+
+ =>  [ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist.">, ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics.">, ResultDTO<headline="The Wildest Product Testers in the Biz", body="In Montana, the most dedicated product testers in the industry get ready to work every day. They problem solve, put their hairy, hairy backs into it and get the job done. Never mind that they’re 600-pound grizzly bears. When bears become habituated to human food, they are often considered dangerous and are either killed or put into captivity. So to keep both bears and people safe, the Bear and Wolf Discovery Center in Montana uses large grizzlies to test bear-resistant products. If the bears are unable to break into a cooler or trashcan in one hour, they get the grizzly seal of approval. If not, the bears get a much deserved lunch break.">, ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job.">, ResultDTO<headline="CNN10 - 10/18/18", body="Armed conflict complicates the fight against Ebola, a job openings report brings optimism to U.S. workers, and a new report card fails many U.S. burger chains.">, ResultDTO<headline="Woman blocks man from entering his own home", body="A woman in St. Louis was fired from her job after a video went viral of her following a man around the apartment building they both live in and calling the police.">, ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">, ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">, ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis.">, ResultDTO<headline="Who is Hope Hicks?", body="Former Trump White House communications director Hope Hicks has landed a new job at FOX.">]
+ =>  [ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. ">, ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. ">, ResultDTO<headline="The Wildest Product Testers in the Biz", body="In Montana, the most dedicated product testers in the industry get ready to work every day. They problem solve, put their hairy, hairy backs into it and get the job done. Never mind that they’re 600-pound grizzly bears. When bears become habituated to human food, they are often considered dangerous and are either killed or put into captivity. So to keep both bears and people safe, the Bear and Wolf Discovery Center in Montana uses large grizzlies to test bear-resistant products. If the bears are unable to break into a cooler or trashcan in one hour, they get the grizzly seal of approval. If not, the bears get a much deserved lunch break.">, ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. ">, ResultDTO<headline="CNN10 - 10/18/18", body="Armed conflict complicates the fight against Ebola, a job openings report brings optimism to U.S. workers, and a new report card fails many U.S. burger chains.">, ResultDTO<headline="Woman blocks man from entering his own home", body="A woman in St. Louis was fired from her job after a video went viral of her following a man around the apartment building they both live in and calling the police.">, ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">, ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">, ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis.">, ResultDTO<headline="Who is Hope Hicks?", body="Former Trump White House communications director Hope Hicks has landed a new job at FOX.">]
+
+[0] =>  ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist.">
+[0] =>  ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. ">
+
+[0].body =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist."
+[0].body =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. "
+
+[1] =>  ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics.">
+[1] =>  ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. ">
+
+[1].body =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics."
+[1].body =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. "
+
+[3] =>  ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job.">
+[3] =>  ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. ">
+
+[3].body =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job."
+[3].body =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. "
+
+[6] =>  ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">
+[6] =>  ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">
+
+[6].body =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+[6].body =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+[7] =>  ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">
+[7] =>  ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">
+
+[7].body =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+[7].body =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+[8] =>  ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis.">
+[8] =>  ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis.">
+
+[8].body =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis."
+[8].body =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis."
+
+
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:203)
+	at Test.AbstractRestApi.testVideoFilterCnnSite(AbstractRestApi.java:54)
+	at Test.TestRestApi.testVideoFilterCnnSite(TestRestApi.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:45)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+testVideoFilterCnnSite(Test.TestRestApi)  Time elapsed: 30.924 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: There are no equal objecrs
+
+Found following differences:
+
+ [0].body
+    =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist."
+    =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. "
+
+ [1].body
+    =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics."
+    =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. "
+
+ [3].body
+    =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job."
+    =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. "
+
+ [6].body
+    =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+    =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+ [7].body
+    =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+    =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+ [8].body
+    =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis."
+    =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis."
+
+
+
+--- Difference details ---
+
+ =>  [ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist.">, ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics.">, ResultDTO<headline="The Wildest Product Testers in the Biz", body="In Montana, the most dedicated product testers in the industry get ready to work every day. They problem solve, put their hairy, hairy backs into it and get the job done. Never mind that they’re 600-pound grizzly bears. When bears become habituated to human food, they are often considered dangerous and are either killed or put into captivity. So to keep both bears and people safe, the Bear and Wolf Discovery Center in Montana uses large grizzlies to test bear-resistant products. If the bears are unable to break into a cooler or trashcan in one hour, they get the grizzly seal of approval. If not, the bears get a much deserved lunch break.">, ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job.">, ResultDTO<headline="CNN10 - 10/18/18", body="Armed conflict complicates the fight against Ebola, a job openings report brings optimism to U.S. workers, and a new report card fails many U.S. burger chains.">, ResultDTO<headline="Woman blocks man from entering his own home", body="A woman in St. Louis was fired from her job after a video went viral of her following a man around the apartment building they both live in and calling the police.">, ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">, ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">, ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis.">, ResultDTO<headline="Who is Hope Hicks?", body="Former Trump White House communications director Hope Hicks has landed a new job at FOX.">]
+ =>  [ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. ">, ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. ">, ResultDTO<headline="The Wildest Product Testers in the Biz", body="In Montana, the most dedicated product testers in the industry get ready to work every day. They problem solve, put their hairy, hairy backs into it and get the job done. Never mind that they’re 600-pound grizzly bears. When bears become habituated to human food, they are often considered dangerous and are either killed or put into captivity. So to keep both bears and people safe, the Bear and Wolf Discovery Center in Montana uses large grizzlies to test bear-resistant products. If the bears are unable to break into a cooler or trashcan in one hour, they get the grizzly seal of approval. If not, the bears get a much deserved lunch break.">, ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. ">, ResultDTO<headline="CNN10 - 10/18/18", body="Armed conflict complicates the fight against Ebola, a job openings report brings optimism to U.S. workers, and a new report card fails many U.S. burger chains.">, ResultDTO<headline="Woman blocks man from entering his own home", body="A woman in St. Louis was fired from her job after a video went viral of her following a man around the apartment building they both live in and calling the police.">, ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">, ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">, ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis.">, ResultDTO<headline="Who is Hope Hicks?", body="Former Trump White House communications director Hope Hicks has landed a new job at FOX.">]
+
+[0] =>  ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist.">
+[0] =>  ResultDTO<headline="Acosta: Trump rallies depressing part of job", body="CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. ">
+
+[0].body =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist."
+[0].body =>  "CNN's Jim Acosta describes what it's like covering President Trump's rallies, and how it's the most depressing part of his job as a journalist. "
+
+[1] =>  ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics.">
+[1] =>  ResultDTO<headline="Inside Politics: White House shuffle could come after midterms", body="White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. ">
+
+[1].body =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics."
+[1].body =>  "White House turnover is coming, why the press secretary job has become less important, Democrats pounce after McConnell suggests entitlement cuts, and why 2018 gubernatorial races are so important. It's all on Inside Politics. "
+
+[3] =>  ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job.">
+[3] =>  ResultDTO<headline="AZ candidate dodges question about Democrats", body="When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. ">
+
+[3].body =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job."
+[3].body =>  "When asked if she was a proud Democrat, Arizona Democratic Senate candidate Kyrsten Sinema said she's a proud Arizonian, but that political parties are not doing a good job. "
+
+[6] =>  ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">
+[6] =>  ResultDTO<headline="See Kanye and Trump's full White House meeting", body="Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">
+
+[6].body =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+[6].body =>  "Kayne West met with President Trump at the White House and discussed an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+[7] =>  ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand.">
+[7] =>  ResultDTO<headline="Kanye's monologue leaves Trump speechless", body="Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. ">
+
+[7].body =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand."
+[7].body =>  "Kayne West met with President Trump at the White House discussing an array of topics including criminal justice reform, job opportunities for ex-convicts and his Yeezy brand. "
+
+[8] =>  ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis.">
+[8] =>  ResultDTO<headline="Carrying On the Blacksmith’s Torch", body="At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis.">
+
+[8].body =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch. This Great Big Story was inspired by Genesis."
+[8].body =>  "At 30-years-old, Yu Kikuchi was tired of his job. Working in an assembly line that made turbines, he was aching to find a new lease on life. So when he heard about 80-year-old master blacksmith Kosaku Matsumura who made “nata,” or Japanese hatchets, he knew he had found his calling. He moved to the countryside and asked Matsumura to take him on as an apprentice. While Kikuchi has less than thee years of experience under his belt compared to Matsumura's 50, the young man still hopes to one day be at the level of his master. When the time comes, he hopes to take on an apprentice of his own, passing on the blacksmith’s torch.
+
+This Great Big Story was inspired by  Genesis."
+
+
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.unitils.reflectionassert.ReflectionAssert.assertReflectionEquals(ReflectionAssert.java:203)
+	at Test.AbstractRestApi.testVideoFilterCnnSite(AbstractRestApi.java:54)
+	at Test.TestRestApi.testVideoFilterCnnSite(TestRestApi.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:45)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)

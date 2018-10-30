@@ -1,0 +1,11 @@
+#surefire
+#Tue Oct 30 02:16:44 EET 2018
+jpda.address=52157
+maven.ext.class.path=D\:\\Program_Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+jpda.listen=true
+forkMode=once
+user.dir=D\:\\Quest\\homeWorkTask
+localRepository=C\:\\Users\\uncle\\.m2\\repository
+test=Test.TestAndroidApi\#testSearchCnnSite
+basedir=D\:\\Quest\\homeWorkTask
+maven.surefire.debug=-Xdebug -Xrunjdwp\:transport\=dt_socket,server\=n,address\=52157
